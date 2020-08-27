@@ -18,8 +18,18 @@ you "get your feet wet" with NPM and javascript.
 
 On your local file system, create a directory called ActivityTracker.
 Install the tracker Module with npm, like we did in class, in ActivityTracker.
-Inside the directory create a file named activityTracker.js and import the
-tracker
+	   >mkdir ActivityTracker
+	   >cd ActivityTracker
+	   >npm install $PathToTracker Module
+Inside the directory create a file named activityTracker.js
+
+	   >emacs activityTracker.js #or use vim/nano/vscode/whatever
+	   ** Opens activyTracker.js in emacs/vim/nano/text editor**
+	   
+ and import the tracker using statement:
+     	    var tracker = require("tracker");
+	    	 ^		^
+	    local instance    module definition
 
 Copy the following array of Object Literals into activityTracker.js, below
 your require statements:
