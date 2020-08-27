@@ -1,1 +1,0 @@
-This is the first Node JS activity for our class.
