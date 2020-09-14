@@ -25,17 +25,18 @@ you "get your feet wet" with NPM and javascript.
 On your local file system, create a directory called ActivityTracker.
 Install the tracker Module with npm, like we did in class, in ActivityTracker.
 
-    >mkdir ActivityTracker
-    >cd ActivityTracker
-    >npm install $PathToTracker Module
-
+    make a new ActivityTracker folder (in the terminal or in VS Code)
+    change directories into ActivityTracker (this has to be in the terminal)
+    Run:  npm install $PathToTracker Module (from the terminal)
+    ($PathToTracker is a STAND-IN for the actual path to the tracker in your file system)
+    
 
 Inside the directory create a file named activityTracker.js
 
     >emacs activityTracker.js #or use vim/nano/vscode/whatever
-    ** Opens activyTracker.js in emacs/vim/nano/text editor**
+    ** Opens activyTracker.js in emacs/vim/nano/text editor/vsCode**
 	   
- and import the tracker using statement:
+ and import the tracker using statement (on the first line):
 
     var tracker = require("tracker");
 	   ^	      ^
@@ -77,8 +78,8 @@ module, and log the following data to the console:
 
  You will have to use your programming knowledge and skills to process the
  array, using basic JavaScript: control flow statements, equality checks, etc.
- Remember that to access Object properties you can use the standard
- dot-notation syntax.
+ Remember that to access items in an Array, you use array[index] notation
+ To access Object properties you can use the standard dot-notation syntax
 
 
 Do not hardcode each activity into your driver.
