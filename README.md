@@ -2,12 +2,12 @@ Author: Jake Levy
 
 Directory contains:
 
-README.md - this file
+   README.md - this file
 
-tracker - a folder that contains a packed NPM module
-for use in your lab assignment.
+   tracker - a folder that contains a packed NPM module for use in your
+   lab assignment.
 
-Example - folder containing the lecture Examples
+   Example - folder containing the lecture Examples
 
 	> README.md - description of Example folder
 	
