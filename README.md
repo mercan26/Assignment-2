@@ -27,8 +27,9 @@ you "get your feet wet" with NPM and javascript.
 On your local file system, create a directory called ActivityTracker.
 Install the tracker Module with npm, like we did in class, in ActivityTracker.
 
-<b> 1) make a new ActivityTracker folder (in the terminal or in VS Code)
-    change directories into ActivityTracker (this has to be in the terminal)
+<b> 1) make a new ActivityTracker folder (in the terminal or in VS Code)</b>
+     <em> a) change directories into ActivityTracker (this has to be in the terminal)
+       
     Run:  npm install $PathToTracker Module (from the terminal)
     ($PathToTracker is a STAND-IN for the actual path to the tracker in your file system)
     
