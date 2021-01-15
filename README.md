@@ -1,5 +1,6 @@
 Author: Jake Levy
-Directory lab1 contains:
+
+Directory contains:
 
 README.md - this file
 
@@ -7,13 +8,14 @@ tracker - a folder that contains a packed NPM module
 for use in your lab assignment.
 
 Example - folder containing the lecture Examples
+
 	> README.md - description of Example folder
 	
 	> censorify - book example for creating a NPM module
 
 	> readwords - a program/app that utitlizes censorify
 
-This directory is the "starting" set of files from Lab 1
+This directory is the "starting point" set of files from Lab 1
 and is the starting point of your first lab assignment.
 
 If you missed today's lecture, look over the slides and then follow the text's
@@ -25,7 +27,7 @@ you "get your feet wet" with NPM and javascript.
 On your local file system, create a directory called ActivityTracker.
 Install the tracker Module with npm, like we did in class, in ActivityTracker.
 
-    make a new ActivityTracker folder (in the terminal or in VS Code)
+<b> 1) make a new ActivityTracker folder (in the terminal or in VS Code)
     change directories into ActivityTracker (this has to be in the terminal)
     Run:  npm install $PathToTracker Module (from the terminal)
     ($PathToTracker is a STAND-IN for the actual path to the tracker in your file system)
