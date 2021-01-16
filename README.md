@@ -58,6 +58,8 @@ your require statements:
 
 NOTE:  This is an array of literal, anonymous, Objects. 
 
+<b> Remember</b> that you can access properties of a JS object via dot OR subscript notation.
+
 Each literal is providing the following data:
 
     Activity Type
