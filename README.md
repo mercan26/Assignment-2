@@ -28,20 +28,24 @@ On your local file system, create a directory called ActivityTracker.
 Install the tracker Module with npm, like we did in class, in ActivityTracker.
 
 <b> 1) make a new ActivityTracker folder (in the terminal or in VS Code)</b>
+
      <em> a) change directories into ActivityTracker (this has to be in the terminal)
        
-    Run:  npm install $PathToTracker Module (from the terminal)
-    ($PathToTracker is a STAND-IN for the actual path to the tracker in your file system)
+  b) From the terminal you will have to run the command:</em>
+  
+     npm install $PathToTrackerModule
+     
+<em>  ($PathToTrackerModule is a STAND-IN variable for the actual path to the tracker directory, cloned from here, in your file system)</em>
     
 
-Inside the directory create a file named activityTracker.js
+<b> 2) Inside the directory create a file named activityTracker.js </b>
 
-    >emacs activityTracker.js #or use vim/nano/vscode/whatever
-    ** Opens activyTracker.js in emacs/vim/nano/text editor/vsCode**
-	   
- and import the tracker using statement (on the first line):
+    <em> a) Right click on the folder in the VS_Code Navigator and select "New File"
+    b) This should open the file in the Editing window.  
 
-    var tracker = require("tracker");
+    c) import the tracker using statement (on the first line):
+
+       var tracker = require("tracker");
 	   ^	      ^
     local instance    module definition
 
