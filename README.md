@@ -53,12 +53,12 @@ Install the tracker Module with npm, like we did in class, in ActivityTracker.
 Copy the following array of Object Literals into activityTracker.js, below
 your require statements:
 
-    var activities = [ {activity: "walking", weight: 150, distance: 3, time: 45}, { activity: "running", weight: 200 , distance: 4, time: 40}, {activity: "running", weight: 175, distance: 5, time: 45}, {activity: "running", weight: 140, distance: 10, time: 240}, {activity: "walking", weight: 165, distance: 2, time: 20}, {activity: "walking", weight: 250, distance: 4, time: 75}, {activity: "running", weight: 215, distance: 3, time: 28}, {activity: "walking", weight: 220, distance: 5, time: 60}];
+    var activities = [ {activity: "walking", weight: 150, distance: 3, time: 45}, { activity: "running", weight: 200 , distance: 4, time: 40}, {activity: "running", weight: 175, distance: 5, time: 45}, {activity: "running", weight: 140, distance: 10, time: 240} ]
     
 
 NOTE:  This is an array of literal, anonymous, Objects. 
 
-<b> Remember</b> that you can access properties of a JS object via dot OR subscript notation.
+<b> Remember</b> that you can access properties of a JS object via dot OR subscript notation.  Also remember that arrays have a <b>length</b> property
 
 Each literal is providing the following data:
 
