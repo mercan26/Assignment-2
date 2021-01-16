@@ -40,10 +40,10 @@ Install the tracker Module with npm, like we did in class, in ActivityTracker.
 
 <b> 2) Inside the directory create a file named activityTracker.js </b>
 
-    <em> a) Right click on the folder in the VS_Code Navigator and select "New File"
-    b) This should open the file in the Editing window.  
+<em> a) Right click on the folder in the VS_Code Navigator and select "New File"
+   b) This should open the file in the Editing window.  
 
-    c) import the tracker using statement (on the first line):
+   c) import the tracker using statement (on the first line): </em>
 
        var tracker = require("tracker");
 	   ^	      ^
