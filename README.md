@@ -29,7 +29,7 @@ Install the tracker Module with npm, like we did in class, in ActivityTracker.
 
 <b> 1) make a new ActivityTracker folder (in the terminal or in VS Code)</b>
 
-     <em> a) change directories into ActivityTracker (this has to be in the terminal)
+   <em> a) change directories into ActivityTracker (this has to be in the terminal)
        
   b) From the terminal you will have to run the command:</em>
   
