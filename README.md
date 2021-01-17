@@ -24,7 +24,7 @@ Menu, then select **Open Workspace** and then navigate to and choose the
 appropriate folder.*
 
 In your VS_Code terminal:  
-**1) Clone the Homework folder**
+**1) Clone the Homework folder**  
 *a) If you opened your HW folder as the workspace, then your terminal  
 should already start in the correct directory location.  If not, navigate to  
 the correct directory in your terminal using the **cd** command
