@@ -14,7 +14,10 @@ understand what we covered in class.  We want to get up to speed and be using
 Javascript to build cool stuff quickly.  
   
 The first assignment is super simple and is just to help you "get your feet  
-wet" with writing relatively simple javascript.
+wet" with writing relatively simple javascript. Since its first time doing
+homework in this class, these directions will guide you through the general
+process of obtaining the files from git.  Future assignments will not describe
+include such details.
   
 *0) Before everything else, remember that its easier to keep things organized
 from the start than it is to organize a bunch of random files later.  Make sure
@@ -32,6 +35,30 @@ the correct directory in your terminal using the **cd** command*
 *b)  Once you are in the correct directory, you should run the following command*
 
      git clone 'https://github.com/ProfJake/lab1'
+
+You should see some message like "Cloning into lab1..." then "done" when it is
+done. 
+
+*c) change directories into the lab1 folder.  
+
+    cd lab1
+    
+It will contain the tracker folder and a copy of these directions in a 
+README.md file.  The tracker folder contains a file named trackerService.js
+with the following functions in it:
+
+     function calcWalkCal(weight, distance){  
+       return 0.3 * weight * distance;  
+     }  
+     function calcRunCal(weight, distance){  
+       return 0.63 * weight * distance;  
+     }  
+     function calcSpeed(distance, time){
+       return distance/time;  
+     }
+
+
+
 
 <b> 1) make a new ActivityTracker folder (in the terminal or in VS Code)</b>
 
