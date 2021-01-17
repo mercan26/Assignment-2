@@ -39,7 +39,7 @@ the correct directory in your terminal using the **cd** command*
 You should see some message like "Cloning into lab1..." then "done" when it is
 done. 
 
-*c) change directories into the lab1 folder.  
+*c) change directories into the lab1 folder.*  
 
     cd lab1
     
@@ -57,21 +57,22 @@ with the following functions in it:
        return distance/time;  
      }
 
-
-
-
-<b> 1) make a new ActivityTracker folder (in the terminal or in VS Code)</b>
-
-   <em> a) change directories into ActivityTracker (this has to be in the terminal)
-       
-  b) From the terminal you will have to run the command:</em>
+These functions are going to be used in this lab.  Each calculates the approx.
+calories burned by a specific activity (walking or running).  
   
-     npm install $PathToTrackerModule
-     
-<em>  ($PathToTrackerModule is a STAND-IN variable for the actual path to the tracker directory, cloned from here, in your file system)</em>
-    
+Below these functions you will see the following lines
 
-<b> 2) Inside the directory create a file named activityTracker.js </b>
+      exports.calcWalkCal = calcWalkCal;  
+      exports.calcRunCal = calcRunCal;  
+      exports.calcSpeed = calcSpeed;
+
+As discussed in today's lecture, the exports object makes these functions
+available in other files that import the trackerService.js file.
+
+Your job is to import these functions and use them to perform some calculations
+in a file named **index.js**.
+
+**2) Inside the lab1 directory create a new file named *index.js* **
 
 <em> a) Right click on the folder in the VS_Code Navigator and select "New File"
 
