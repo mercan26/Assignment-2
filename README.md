@@ -1,4 +1,4 @@
-Author: Jake Levy
+Author: Jake Levy  
 Directory contains:
 
     README.md - this file
@@ -102,8 +102,8 @@ Each literal is providing the following data:
     Time in Minutes
 
 
-*4) Use a loop  to walk through the array, using the functions provided by in
-tracker module to process each item and print the data to the console in the following format:*  
+**4) Use a loop  to walk through the array, using the functions provided by in
+tracker module to process each item and print the data to the console in the following format:**  
 
     Activity: 1
     walking
