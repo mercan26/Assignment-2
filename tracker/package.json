@@ -2,7 +2,7 @@
     "author": "Jake Levy",
     "name": "tracker",
     "version": "0.1.1",
-    "description": "our second NPM module",
+    "description": "The tracker module for lab1",
     "main": "trackerService",
     "dependencies": {},
     "engines": {

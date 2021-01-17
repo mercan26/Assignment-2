@@ -17,14 +17,14 @@ Javascript to build cool stuff quickly.
 The first assignment is super simple and is just to help you "get your feet
  wet" with writing relatively simple javascript.
 
-The first and most basic step is to clone this repository.
-In your VS_Code terminal:
 <i>0) Before everything else, remember that its easier to keep things organized
 from the start than it is to organize a bunch of random files later.  Make sure
 you have folder somewhere in your local for Labs/class assignments.  This
 folder should be your "Workspace".  In VS Code you can select the <b> File</b>
 Menu, then select <b>Open Workspace</b> and then navigate to and choose the
 appropriate folder.</i></b>
+
+In your VS_Code terminal:
 <b> 1) make a new ActivityTracker folder (in the terminal or in VS Code)</b>
 
    <em> a) change directories into ActivityTracker (this has to be in the terminal)
