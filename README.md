@@ -30,7 +30,7 @@ should already start in the correct directory location.  If not, navigate to
 the correct directory in your terminal using the **cd** command*
   
 *b)  Once you are in the correct directory, you should run the following command*  
-    git clone https://github.com/ProfJake/lab1
+     git clone https://github.com/ProfJake/lab1
 
 <b> 1) make a new ActivityTracker folder (in the terminal or in VS Code)</b>
 
