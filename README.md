@@ -103,7 +103,7 @@ Each literal is providing the following data:
 
 
 *4) Use a loop  to walk through the array, using the functions provided by in
-tracker module to process each item and print the data to the console in the following format:  
+tracker module to process each item and print the data to the console in the following format:*  
 
     Activity: 1
     walking
