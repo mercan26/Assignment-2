@@ -102,8 +102,8 @@ Each literal is providing the following data:
     Time in Minutes
 
 
-USE A LOOP to process the array, using the functions provided by the tracker
-module, and log the following data to the console:
+*4) Use a loop  to walk through the array, using the functions provided by in
+tracker module to process each item and print the data to the console in the following format:  
 
     Activity: 1
     walking
@@ -128,7 +128,7 @@ Since tracker uses time in hours, you'll have to do some conversions.
  To access Object properties you can use the standard dot-notation syntax
 
 
-Do not hardcode each activity into your driver.
+*Do not hardcode each activity printout into your driver. Do not re-type the functions in your local file. You should practice importing the file and accessing the functions through the imported object*
 
-*You will submit a Screenshot of your output and your code on Canvas.
-There's not a lot of array elements to process so please include the entire set of output.*
+***You will submit a Screenshot of your output and your code on Canvas.
+There's not a lot of array elements to process so please include the entire set of output.***
