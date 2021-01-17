@@ -74,25 +74,25 @@ in a file named **index.js**.
 
 **2) Inside the lab1 directory create a new file named index.js**.
 
-<em> a) Right click on the folder in the VS_Code Navigator and select "New File"
+*a) Right click on the folder in the VS_Code Navigator and select "New File". Name the file 'index.js'*
 
-   b) This should open the file in the Editing window.  
+*b) import the trackerService.js file  using the require statement on the first line:*  
 
-   c) import the tracker using statement (on the first line): </em>
+       var tracker = require("./tracker/trackerService.js");
+	   ^				^   
+    local reference    	relative path to the trackerService.js file
+    
+Now you can access any of the listed functions by typing tracker.calcWalkCal ( if you want to calculate the calories for walking, for example).
 
-       var tracker = require("tracker");
-	   ^	      ^
-    local instance    module definition
-
-Copy the following array of Object Literals into activityTracker.js, below
-your require statements:
+**3) Copy the following array of Object Literals into index.js, below
+your require statements:**  
 
     var activities = [ {activity: "walking", weight: 150, distance: 3, time: 45}, { activity: "running", weight: 200 , distance: 4, time: 40}, {activity: "running", weight: 175, distance: 5, time: 45}, {activity: "running", weight: 140, distance: 10, time: 240} ]
     
 
-NOTE:  This is an array of literal, anonymous, Objects. 
-
-<b> Remember</b> that you can access properties of a JS object via dot OR subscript notation.  Also remember that arrays have a <b>length</b> property
+**NOTE:**  This is an array of literal, anonymous, Objects. To access object
+properties, you can use dot OR subscript notation.  Also remember that arrays
+have a **length** property.  
 
 Each literal is providing the following data:
 
@@ -101,7 +101,6 @@ Each literal is providing the following data:
     Distance in Miles
     Time in Minutes
 
-Since tracker uses time in hours, don't forget to do some conversions.
 
 USE A LOOP to process the array, using the functions provided by the tracker
 module, and log the following data to the console:
@@ -119,6 +118,9 @@ module, and log the following data to the console:
     Calories Burned: 504
     ***************************
     ... Data continues for remaining objects...
+
+
+Since tracker uses time in hours, you'll have to do some conversions.
 
  You will have to use your programming knowledge and skills to process the
  array, using basic JavaScript: control flow statements, equality checks, etc.
