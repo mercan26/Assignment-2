@@ -72,7 +72,7 @@ available in other files that import the trackerService.js file.
 Your job is to import these functions and use them to perform some calculations
 in a file named **index.js**.
 
-*2) Inside the lab1 directory create a new file named **index.js**.*
+**2) Inside the lab1 directory create a new file named index.js**.
 
 <em> a) Right click on the folder in the VS_Code Navigator and select "New File"
 
