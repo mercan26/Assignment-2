@@ -129,3 +129,6 @@ Since tracker uses time in hours, you'll have to do some conversions.
 
 
 Do not hardcode each activity into your driver.
+
+*You will submit a Screenshot of your output and your code on Canvas.
+There's not a lot of array elements to process so please include the entire set of output.*
