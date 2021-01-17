@@ -4,29 +4,27 @@ Directory contains:
 
     README.md - this file
 
-    tracker - a folder that contains a packed NPM module for use in your
-    lab assignment.
+    tracker - a folder that contains a NPM module for use in your lab
+    assignment.
 
-    Example - folder containing the lecture Examples
+This directory is the "starting point" set of files for Lab 1: Intro to JS.
 
-	> README.md - description of Example folder
-	
-	> censorify - book example for creating a NPM module
+If you missed today's lecture, look over the slides (if available, watch the
+lecture video), and  read Chapter 2: JavaScript Primer from your text to
+understand what we covered in class.  We want to get up to speed and be using
+Javascript to build cool stuff quickly.
 
-	> readwords - a program/app that utitlizes censorify
+The first assignment is super simple and is just to help you "get your feet
+ wet" with writing relatively simple javascript.
 
-This directory is the "starting point" set of files from Lab 1
-and is the starting point of your first lab assignment.
-
-If you missed today's lecture, look over the slides and then follow the text's
-directions on pages  XX - XX to understand what we did in class (packed censorify, installed it into readwords folder, imported it into readwords)
-
-The first assignment is super simple and is just to help
-you "get your feet wet" with NPM and javascript.
-
-On your local file system, create a directory called ActivityTracker.
-Install the tracker Module with npm, like we did in class, in ActivityTracker.
-
+The first and most basic step is to clone this repository.
+In your VS_Code terminal:
+<i>0) Before everything else, remember that its easier to keep things organized
+from the start than it is to organize a bunch of random files later.  Make sure
+you have folder somewhere in your local for Labs/class assignments.  This
+folder should be your "Workspace".  In VS Code you can select the <b> File</b>
+Menu, then select <b>Open Workspace</b> and then navigate to and choose the
+appropriate folder.</i></b>
 <b> 1) make a new ActivityTracker folder (in the terminal or in VS Code)</b>
 
    <em> a) change directories into ActivityTracker (this has to be in the terminal)
