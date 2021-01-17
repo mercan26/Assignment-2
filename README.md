@@ -1,5 +1,4 @@
 Author: Jake Levy
-
 Directory contains:
 
     README.md - this file
@@ -7,24 +6,30 @@ Directory contains:
     tracker - a folder that contains a NPM module for use in your lab
     assignment.
 
-This directory is the "starting point" set of files for Lab 1: Intro to JS.
-
-If you missed today's lecture, look over the slides (if available, watch the
-lecture video), and  read Chapter 2: JavaScript Primer from your text to
-understand what we covered in class.  We want to get up to speed and be using
-Javascript to build cool stuff quickly.
-
-The first assignment is super simple and is just to help you "get your feet
- wet" with writing relatively simple javascript.
-
-<i>0) Before everything else, remember that its easier to keep things organized
+This directory is the "starting point" set of files for Lab 1: Intro to JS.  
+  
+If you missed today's lecture, look over the slides (if available, watch the  
+lecture video), and  read Chapter 2: JavaScript Primer from your text to  
+understand what we covered in class.  We want to get up to speed and be using  
+Javascript to build cool stuff quickly.  
+  
+The first assignment is super simple and is just to help you "get your feet  
+wet" with writing relatively simple javascript.
+  
+*0) Before everything else, remember that its easier to keep things organized
 from the start than it is to organize a bunch of random files later.  Make sure
 you have folder somewhere in your local for Labs/class assignments.  This
-folder should be your "Workspace".  In VS Code you can select the <b> File</b>
-Menu, then select <b>Open Workspace</b> and then navigate to and choose the
-appropriate folder.</i></b>
+folder should be your **Workspace**.  In VS Code you can select the **File**
+Menu, then select *Open Workspace* and then navigate to and choose the
+appropriate folder.
 
-In your VS_Code terminal:
+In your VS_Code terminal:<br>
+<b> 1) Clone the Homework folder</b>
+<i> a) If you opened your HW folder as the workspace, then your terminal
+should already start in the correct directory location.  If not, navigate to
+the correct directory in your terminal.<br><br>
+ b)  Once you are in the correct
+
 <b> 1) make a new ActivityTracker folder (in the terminal or in VS Code)</b>
 
    <em> a) change directories into ActivityTracker (this has to be in the terminal)
