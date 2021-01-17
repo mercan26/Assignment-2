@@ -20,15 +20,17 @@ wet" with writing relatively simple javascript.
 from the start than it is to organize a bunch of random files later.  Make sure
 you have folder somewhere in your local for Labs/class assignments.  This
 folder should be your **Workspace**.  In VS Code you can select the **File**
-Menu, then select *Open Workspace* and then navigate to and choose the
-appropriate folder.
+Menu, then select **Open Workspace** and then navigate to and choose the
+appropriate folder.*
 
-In your VS_Code terminal:<br>
-<b> 1) Clone the Homework folder</b>
-<i> a) If you opened your HW folder as the workspace, then your terminal
-should already start in the correct directory location.  If not, navigate to
-the correct directory in your terminal.<br><br>
- b)  Once you are in the correct
+In your VS_Code terminal:  
+**1) Clone the Homework folder**
+*a) If you opened your HW folder as the workspace, then your terminal  
+should already start in the correct directory location.  If not, navigate to  
+the correct directory in your terminal using the **cd** command
+  
+b)  Once you are in the correct directory, you should run the following command*
+    git clone https://github.com/ProfJake/lab1
 
 <b> 1) make a new ActivityTracker folder (in the terminal or in VS Code)</b>
 
