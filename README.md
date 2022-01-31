@@ -6,7 +6,8 @@ Directory contains:
     tracker - a folder that contains a NPM module for use in your lab
     assignment.
 
-This directory is the "starting point" set of files for Lab 1: Intro to JS.  
+This directory is the "starting point" set of files for the current lab; Intro to npm 
+& NodeJS.  
   
 If you missed today's lecture, look over the slides (if available, watch the  
 lecture video), and  read Chapter 2: JavaScript Primer from your text to  
