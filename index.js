@@ -1,4 +1,4 @@
-var tracker = require("./tracker/trackerService.js");
+var tracker = require("index.js");
 
 var activities = [
     {activity: "walking", weight: 150, distance: 3, time: 45},
